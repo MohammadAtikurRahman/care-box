@@ -2,34 +2,9 @@
 import React, { useEffect, useState } from 'react';
 import Items from './Items';
 import Button from './Button';
-
-
-
 import './App.css';
 
-function App() {
-
-
-
-
-
-
-
-
-
-
-
-
-   
-
-
-
-
-
-
-
-
- 
+function App() { 
  const [list, setList] = useState([]);
  
   useEffect(() => {
@@ -38,12 +13,6 @@ function App() {
       .then(items => {  
           setList(items)
       })
-
-
-
-
-
-
     }, []);
  
         console.log(list)

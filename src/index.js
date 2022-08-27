@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import Design from './Design';
 import './index.css';
 import App from './App';
 import Button from './Button';
@@ -10,7 +11,7 @@ root.render(
   <React.StrictMode>
      
     <App />
- 
+    <Button />
   </React.StrictMode>
 );
 
