@@ -2,13 +2,20 @@
   "list": [
     {
       "id": 1,
-      "name": "elon",
-      "picture": "https://static.dezeen.com/uploads/2021/06/elon-musk-architect_dezeen_1704_col_1-1536x1053.jpg"
+      "name": "anonna",
+      "link": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8"
     },
     {
       "id": 2,
-      "name": "mark",
-      "picture": "https://www.incimages.com/uploaded_files/image/1920x1080/getty_962130392_2000133320009280233_380105.jpg"
+      "name": "tarek",
+      "link": "https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8"
+    },
+    {
+      "id": 3,
+      "name": "atik",
+      "link":"https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8"
     }
+    
   ]
 }
+

@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import React, { useEffect, useState } from 'react';
 import Items from './Items';
 
@@ -26,13 +26,13 @@ function App() {
  console.log(list)
   return (
     <div className="App">
-    
+        <h1>lets create api</h1>
      {list.map(list => {
   return(
       <Items 
       key={list.id}
       name={list.name}
-      picture={list.picture}
+      link={list.link}
      
       />
       );
