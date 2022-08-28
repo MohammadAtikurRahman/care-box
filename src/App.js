@@ -1,11 +1,9 @@
 
 import React, { useEffect, useState } from 'react';
 import Items from './Items';
-import Button from './Button';
 import './App.css';
-
 function App() { 
- const [list, setList] = useState([]);
+  const [list, setList] = useState([]);
  
   useEffect(() => {
       fetch('http://localhost:3333/list')
@@ -29,9 +27,6 @@ function App() {
               />
               );
           })}
-
-
-
     </div>
   );
 }
