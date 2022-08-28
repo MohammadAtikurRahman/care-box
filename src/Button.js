@@ -4,10 +4,6 @@ import React  from 'react'
 import './App.css';
 function Button(){
     
-     function myButton() { 
-	document.getElementById("mainFrameOne").style.display="none"; 
-	document.getElementById("mainFrameTwo").style.display="block"; 
-  }
 
 
 

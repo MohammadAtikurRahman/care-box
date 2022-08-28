@@ -17,19 +17,26 @@ function App() {
     }, []);
  
         console.log(list)
+
+
           return (
             <div className="App">
-                {list.map(list => {
+                {list.map((list,index )=> {
                 return(
-                  <Items 
-                  key={list.id}
-                  name={list.name}
-                  link={list.link}
-            
-                    />
+                  <Items  key={list.id} name={list.name} link={list.link}
+                      
+                  
+                  />
+
+              
+                
+
                     );
-                })}
-          </div>
+                 })}
+
+  
+
+            </div>
   );
 
 
