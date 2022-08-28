@@ -1,6 +1,9 @@
 
 import React, { useEffect, useState } from 'react';
 import Items from './Items';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 import './App.css';
 function App() { 
   const [list, setList] = useState([]);
@@ -16,19 +19,20 @@ function App() {
         console.log(list)
           return (
             <div className="App">
-              
-            {list.map(list => {
-          return(
-              <Items 
-              key={list.id}
-              name={list.name}
-              link={list.link}
+                {list.map(list => {
+                return(
+                  <Items 
+                  key={list.id}
+                  name={list.name}
+                  link={list.link}
             
-              />
-              );
-          })}
-    </div>
+                    />
+                    );
+                })}
+          </div>
   );
+
+
 }
 
 export default App;
